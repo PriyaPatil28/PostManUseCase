@@ -1,0 +1,270 @@
+{
+	"id": "c02cf91a-2fac-47ae-a1bd-d7438699bc08",
+	"name": "UseCase3AND6",
+	"timestamp": "2023-08-16T16:03:21.666Z",
+	"collection_id": "23448324-8556adb9-517e-4e6d-b446-cc194d5714de",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-08-16T16:03:19.418Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3293c81b-0a09-4c1f-815e-ce95359bc4f7",
+			"name": "https://reqres.in/api/unknown/3",
+			"url": "https://reqres.in/api/unknown/1",
+			"time": 327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dd9dee49-ac17-4e14-8c26-64f585f8df41",
+			"name": "https://reqres.in/api/unknown/8",
+			"url": "https://reqres.in/api/unknown/1",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f724f126-cf53-4cd9-80a1-69d99ba24200",
+			"name": "https://reqres.in/api/unknown/13",
+			"url": "https://reqres.in/api/unknown/13",
+			"time": 329,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				329
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e4b23432-db02-4913-98e7-cb85b367e229",
+			"name": "https://reqres.in/api/unknown/14",
+			"url": "https://reqres.in/api/unknown/13",
+			"time": 30,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "971a3053-0b44-4258-8ced-ac7e89577db3",
+			"name": "https://reqres.in/api/users?id=7",
+			"url": "https://reqres.in/api/users?id=7",
+			"time": 291,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				291
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "268f45d5-e8f6-41a6-aaf0-9d358bbbe619",
+			"name": "https://reqres.in/api/users?id=1",
+			"url": "https://reqres.in/api/users?id=7",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b0826dbd-851e-4dda-b2d0-21f85edf1f4e",
+			"name": "https://reqres.in/api/users?id=16",
+			"url": "https://reqres.in/api/users?id=7",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "47ba4423-09cd-4046-9dee-f3942a08ac03",
+			"name": "https://reqres.in/api/users?id=100",
+			"url": "https://reqres.in/api/users?id=100",
+			"time": 319,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1386,
+	"collection": {
+		"requests": [
+			{
+				"id": "3293c81b-0a09-4c1f-815e-ce95359bc4f7",
+				"method": "GET"
+			},
+			{
+				"id": "dd9dee49-ac17-4e14-8c26-64f585f8df41",
+				"method": "GET"
+			},
+			{
+				"id": "f724f126-cf53-4cd9-80a1-69d99ba24200",
+				"method": "GET"
+			},
+			{
+				"id": "e4b23432-db02-4913-98e7-cb85b367e229",
+				"method": "GET"
+			},
+			{
+				"id": "971a3053-0b44-4258-8ced-ac7e89577db3",
+				"method": "GET"
+			},
+			{
+				"id": "268f45d5-e8f6-41a6-aaf0-9d358bbbe619",
+				"method": "GET"
+			},
+			{
+				"id": "b0826dbd-851e-4dda-b2d0-21f85edf1f4e",
+				"method": "GET"
+			},
+			{
+				"id": "47ba4423-09cd-4046-9dee-f3942a08ac03",
+				"method": "GET"
+			}
+		]
+	}
+}
